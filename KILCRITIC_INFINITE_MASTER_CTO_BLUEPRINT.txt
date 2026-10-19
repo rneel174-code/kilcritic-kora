@@ -1,0 +1,1682 @@
+KILCRITIC INFINITE / SUPREME ENGINE
+MASTER CTO + FULL CODING BLUEPRINT
+============================================================
+
+STATUS
+------
+BASELINE: KORA 8.8.5-KORA-GODFATHER-CTO-HARDENED
+MODE: ADDITIVE EXTENSION ONLY
+RULE: DO NOT RESTART, DESTROY, OR REPLACE THE KORA 8.8.5 BASELINE
+CURRENT ARCHITECTURE NAME: KILCRITIC INFINITE / KILCRITIC SUPREME ENGINE
+
+IMPORTANT
+---------
+This document is the master architecture and implementation plan.
+It is NOT a claim that the existing KORA ZIP has already been integrated.
+Exact file-level patches require the real ZIP/source tree.
+
+CORE PRODUCT DESCRIPTION
+------------------------
+Permission-based self-evolving multimodal AI operating system with:
+- extensible skills/tools
+- controlled evolution
+- autonomous diagnostics and safe repair
+- human-approved high-risk actions
+- truthful evidence/provenance
+- simple human-friendly UX
+- persistent mission/identity/recovery
+- business/revenue analysis
+- multimodal creation
+- secure cross-device continuity
+
+NON-NEGOTIABLE PRINCIPLES
+-------------------------
+1. Simple by Default
+2. Automatic by Default
+3. Safe by Default
+4. Human-Friendly by Default
+5. Truthful by Default
+6. Recoverable by Default
+7. Current explicit user instruction > learned DNA/preferences
+8. Safety/security/legal/platform constraints override preferences
+9. High-risk external actions require approval
+10. No silent production modification
+11. No fake capability, result, download, publication, repair, 4K/8K, API, or web result
+12. One command means one GOAL, not unlimited authority
+13. Advanced power stays behind progressive disclosure
+14. Safe low/medium fixes may auto-repair; high/critical changes require approval
+15. Every evolution has proposal, diff, risk, tests, approval where required, verification, rollback
+16. Owner preferences cannot turn false facts into true facts
+17. No offensive counterattack, weaponization, destructive retaliation, or unrestricted hidden override
+
+============================================================
+1. TOP LEVEL ARCHITECTURE
+============================================================
+
+KORA 8.8.5
+|
++-- KILCRITIC INFINITE
+    |
+    +-- /core/
+    |   +-- kernel/
+    |   +-- orchestrator/
+    |   +-- planner/
+    |   +-- director/
+    |   +-- permissions/
+    |   +-- skills/
+    |   +-- verification/
+    |   +-- evolution/
+    |   +-- repair/
+    |   +-- security/
+    |   +-- truth/
+    |   +-- context/
+    |   +-- resources/
+    |   +-- observability/
+    |   +-- offline/
+    |   +-- providers/
+    |   +-- memory/
+    |   +-- atma/
+    |   +-- sena/
+    |   +-- dharma/
+    |   +-- dhanda/
+    |   +-- user_dna/
+    |   +-- legal_guard/
+    |   +-- creator_intelligence/
+    |   +-- predictive_trends/
+    |   +-- opportunity_radar/
+    |   +-- simulation_lab/
+    |   +-- experiment_engine/
+    |   +-- capability_factory/
+    |   +-- source_fusion/
+    |   +-- app_factory/
+    |   +-- media/
+    |   +-- voice/
+    |   +-- web_agent/
+    |   +-- download_manager/
+    |   +-- analytics/
+    |   +-- publishing/
+    |   +-- universal_builder/
+    |   +-- simplicity/
+    |
+    +-- /vault/
+    |   +-- user_dna/
+    |   +-- decisions/
+    |   +-- proposals/
+    |   +-- evolution/
+    |   +-- backups/
+    |   +-- evidence/
+    |   +-- missions/
+    |   +-- audit/
+    |
+    +-- /services/
+        +-- approval/
+        +-- scheduler/
+        +-- queue/
+        +-- checkpoint/
+        +-- health/
+        +-- backup/
+        +-- notifications/
+
+============================================================
+2. UNIVERSAL REQUEST PIPELINE
+============================================================
+
+INPUT
+  -> CLASSIFY
+  -> CONTEXT
+  -> UNDERSTAND
+  -> READ USER DNA
+  -> SAFETY / LEGAL / PLATFORM PREFLIGHT
+  -> PLAN
+  -> SELECT SKILLS
+  -> CHECK PERMISSIONS
+  -> CHECK COST/RESOURCE BUDGET
+  -> SIMULATE IF USEFUL
+  -> EXECUTE IN SANDBOX/CONTROLLED RUNTIME
+  -> VERIFY
+  -> QUALITY CHECK
+  -> RESULT
+  -> LOG
+  -> LEARN
+  -> UPDATE FUTURE GUARDS
+
+Human-facing behavior:
+- ask only when required
+- hide technical complexity
+- explain important decisions simply
+- provide undo/rollback where possible
+
+============================================================
+3. RASHTRAPATI CORE
+============================================================
+
+Purpose:
+Internal architecture name for supreme approval/decision flow.
+Not literal political authority.
+
+Flow:
+PROPOSAL -> PRESIDENT/RASHTRAPATI SIGN -> EXECUTE -> VERIFY
+
+Components:
+- proposal engine
+- approval service
+- decision vault
+- risk evaluator
+- diff viewer
+- rollback manager
+
+Rashtrapati Mode ON:
+- deep scan
+- trend/competition/opportunity scan
+- generate 10 ideas
+- estimate upside/risk/effort/evidence
+- store proposals privately
+- wait for approval for governed actions
+
+============================================================
+4. GOD CORE
+============================================================
+
+GOD_MODE = Meta-Evolution Engine
+
+Functions:
+- discover capability gaps
+- propose successor architecture
+- build isolated candidate
+- test candidate
+- security scan
+- compare against current
+- produce proposal
+- require approval for production deployment
+- deploy only after approval
+- verify
+- rollback if failed
+
+SELF-BIRTH:
+Can create candidate KILCRITIC 2.0/3.0/etc. in isolated sandbox.
+This is version evolution, NOT literal consciousness.
+
+PREDICTIVE:
+Forecast trends from evidence.
+Never claim guaranteed future knowledge.
+
+OMNI:
+Internal app/skill library and builder.
+External store publishing remains separate and permissioned.
+
+============================================================
+5. ATMA CORE
+============================================================
+
+/core/atma/
+
+identity/
+- atma.id
+- identity.lock
+- integrity.hash
+- encrypted_identity.key
+
+mission/
+- mission.lock
+- goals.json
+- milestones.json
+- progress.log
+
+guardian/
+- dead_man_switch
+- heartbeat.log
+- offline_policy.json
+- alert_policy.json
+
+mesh/
+- devices.json
+- trust_registry.json
+- sync_state.json
+- conflict_resolver.json
+
+phoenix/
+- recovery_manifest.json
+- restore_points/
+- integrity_checks.json
+- recovery_test.log
+
+evolution/
+- evolution_ledger.json
+- approved_capabilities.json
+- rollback_points/
+
+Rules:
+- persistent identity/configuration, not literal soul/consciousness
+- encrypted key is user-controlled; never stored only with ChatGPT
+- mission target is a goal, never guaranteed
+- offline heartbeat can trigger local backup/alert workflow
+- cross-device mesh uses per-device identity, auth, encryption, permissions, revocation
+- Phoenix restores only from verified backups
+- preserve authorized user DNA/data when safe
+- never magically recover data that has no backup
+
+============================================================
+6. SENA
+============================================================
+
+SENA = bounded parallel workforce.
+
+1. SENA MODE ON
+- parallel agents
+- bounded concurrency
+- shared task ID
+- independent outputs
+- verification merge
+- no runaway agent creation
+
+2. ATTACK [topic]
+Meaning: multi-angle coverage of a topic.
+Angles may include:
+- research
+- hook
+- script
+- thumbnail
+- short
+- long-form
+- FAQ
+- audience
+- SEO/metadata
+- analytics hypothesis
+NOT cyberattack, harassment, or harmful attack.
+
+3. CLONE TEAM
+Example:
+Researcher + Editor + Uploader + Analyst
+Each agent gets least privilege.
+Team has a coordinator and budget.
+
+============================================================
+7. USER DNA VAULT
+============================================================
+
+/vault/user_dna/
+
+CORE SIX FILES:
+- style.json
+- editing.json
+- hooks.json
+- audience.json
+- success_pattern.json
+- learn.log
+
+OPTIONAL:
+- voice_face/
+
+Rules:
+- every creation reads DNA first
+- every result updates learn.log
+- no DNA -> generic defaults
+- DNA -> learned user preferences
+- current explicit instruction overrides DNA
+- stale/low-confidence preferences are rechecked
+- each preference stores provenance, confidence, date, correction history
+- face/voice require explicit permission and encryption
+- export/delete controls
+- DNA changes are versioned and rollbackable
+- bad learning can be reverted
+
+Example preference fields:
+style:
+- language_mix
+- tone
+- pacing
+- emoji_level
+- narration_style
+
+editing:
+- aspect_ratio
+- resolution_target
+- caption_style
+- transitions
+- cut_speed
+- file_size_target
+
+hooks:
+- successful hooks
+- failed hooks
+- evidence
+- confidence
+
+audience:
+- only authorized/user-provided data
+- do not infer sensitive traits
+- use only for legitimate content personalization
+
+success_pattern:
+- what worked
+- what failed
+- evidence
+- why
+- confidence
+
+learn.log:
+- task
+- outcome
+- correction
+- learned preference
+- source
+- confidence
+- timestamp
+
+============================================================
+8. COST GOVERNOR
+============================================================
+
+Tracks:
+- money
+- tokens
+- compute
+- RAM
+- disk
+- network
+- time
+- tool calls
+- retries
+- recursion
+- downloads
+- output size
+
+Before expensive task:
+- estimate
+- reserve budget
+- execute
+- release unused reservation
+- record actual usage
+
+Rules:
+- daily/monthly caps
+- safe mode at cap
+- free-first when legitimately available
+- no automatic purchase
+- no automatic payment
+- no unauthorized keys
+- no bypass of paid services
+- paid-only capability becomes unavailable unless user explicitly configures authorized access
+- anomaly detection for sudden usage
+- circuit breaker for runaway usage
+
+============================================================
+9. LEGAL + PLATFORM GUARD
+============================================================
+
+Legal-by-Design, not warning-only.
+
+Before creating:
+- copyright/IP
+- licenses
+- source rights
+- trademark
+- likeness/identity
+- music/audio rights
+- child safety
+- age restrictions
+- platform policy
+- spam
+- duplicate/reused content
+- disclosure
+- rate/account restrictions
+
+Behavior:
+RISK -> auto-correct when safely possible
+RISKY ASSET -> replace with authorized/original alternative
+UNKNOWN RIGHTS -> do not assume permission
+HIGH/UNCERTAIN -> human review
+
+Final statuses:
+LEGAL/POLICY PREFLIGHT:
+- PASS
+- AUTO-FIXED
+- BLOCKED
+- HUMAN REVIEW
+
+Never claim 100% legal guarantee.
+
+============================================================
+10. DHARMA ENGINE
+============================================================
+
+/core/dharma/
+
+- satya_engine.py
+- malak_law.py
+- auto_sudhaar.py
+
+default_mode = SATYA_MODE
+
+Truth classes:
+- FACT / VERIFIED
+- SOURCE_BASED
+- USER_PREFERENCE
+- GOAL
+- TOOL_GENERATED
+- INFERRED
+- UNCERTAIN
+- UNAVAILABLE
+
+Owner rules:
+- configurable user preferences can be changed by owner
+- changes are versioned
+- stored in /vault/user_dna/malak_rules.json
+- reversible
+- audited
+
+Critical rule:
+Owner preference does NOT turn objective falsehood into fact.
+Safety/security/legal/platform constraints cannot be bypassed by preference.
+
+Auto Sudhaar:
+DETECT -> DIAGNOSE -> AUTO-REPAIR -> TEST -> VERIFY -> LOG
+
+LOW/MEDIUM safe repair:
+automatic if within bounds.
+
+HIGH/CRITICAL:
+approval required.
+
+Wrong repair:
+rollback.
+
+Never:
+- "auto-fix at any cost"
+Instead:
+"auto-fix within safety, legal, security, permission, and resource bounds."
+
+============================================================
+11. EMERGENCY DEFENSE + RECOVERY
+============================================================
+
+No hidden unrestricted offensive key.
+
+Normal Mode continuously:
+PREVENT -> DETECT -> BLOCK -> REPAIR -> VERIFY -> LEARN
+
+Emergency Mode automatically:
+DETECT
+-> ISOLATE
+-> QUARANTINE
+-> FREEZE EXTERNAL SIDE EFFECTS
+-> REVOKE RISKY PERMISSIONS
+-> PRESERVE LOGS/EVIDENCE
+-> DIAGNOSE
+-> AUTO-REPAIR SAFE ISSUES
+-> TEST
+-> VERIFY
+-> ROLLBACK IF NEEDED
+-> RESTORE TRUSTED STATE
+-> SECURITY/INTEGRITY CHECK
+-> SAFE MODE
+-> RESUME WHEN VERIFIED
+
+Quarantine:
+- no network
+- no production writes
+- minimal filesystem
+- limited process permissions
+- sandbox analysis
+- no retaliation
+- no physical harm
+
+Severe compromise:
+- stop runtime
+- verify trusted backup
+- preserve authorized user data/DNA where safe
+- remove untrusted runtime
+- restore trusted baseline
+- re-establish permissions
+- health check
+- restart
+
+============================================================
+12. DHANDA ENGINE
+============================================================
+
+/core/dhanda/
+
+- market_scanner
+- opportunity_engine
+- revenue_models
+- content_economy
+- product_engine
+- analytics
+- revenue_verifier
+- experiment_engine
+- proposal_engine
+
+Pipeline:
+MARKET SCAN
+-> OPPORTUNITY
+-> DEMAND
+-> COMPETITION
+-> EFFORT/COST/RISK
+-> BUSINESS MODEL
+-> CONTENT/PRODUCT
+-> QUALITY
+-> PROPOSAL
+-> APPROVAL
+-> PUBLISH/DEPLOY
+-> ANALYTICS
+-> LEARN
+
+Scorecard:
+- opportunity
+- demand
+- competition
+- effort
+- cost
+- risk
+- monetization
+- evidence
+- confidence
+- expected upside
+
+All estimates labeled as estimates.
+No guaranteed income.
+No fake engagement/views.
+No spam.
+No payment abuse.
+
+Daily commands:
+"Ajj da dhanda scan"
+"Paise Da Hisab"
+"Ajj da $100 kadd"
+
+The last is a target/opportunity search, never a guaranteed $100 outcome.
+
+============================================================
+13. ATMA FUNCTIONS
+============================================================
+
+Mission Lock:
+- persistent goal
+- milestones
+- daily/weekly progress
+- evidence-based status
+- no guaranteed outcome
+
+Phoenix ON:
+- verified backup restore
+- same authorized DNA/config where available
+
+Sync All:
+- phone -> laptop -> cloud
+- checkpointed jobs
+- encrypted sync
+- conflict resolution
+- device revocation
+
+============================================================
+14. DNA FUNCTIONS
+============================================================
+
+TERE WANGU BNA:
+- read authorized historical content
+- learn style/preferences
+- create ORIGINAL new content
+- never copy exact work, identity, voice, or copyrighted assets without authorization
+- show learned vs explicitly set preferences
+
+============================================================
+15. CREATOR INTELLIGENCE / DUSHMAN SCAN
+============================================================
+
+Use public observable information only.
+
+Can analyze:
+- topic patterns
+- publishing frequency
+- formats
+- thumbnail composition
+- title structures
+- audience signals
+- trends
+- public engagement signals
+
+Output:
+- strategy insights
+- gaps
+- original opportunities
+- experiments
+
+Cannot:
+- steal accounts
+- access private data
+- copy videos/assets/identity
+- imitate distinctive protected work deceptively
+- bypass access controls
+
+============================================================
+16. OPPORTUNITY RADAR
+============================================================
+
+Inputs:
+- trends
+- public social signals
+- markets
+- user problems
+- app gaps
+- creator activity
+- product gaps
+- legitimate monetization models
+
+Output:
+Opportunity Graph
+
+Each opportunity:
+evidence
+business model
+skill required
+cost
+risk
+effort
+revenue mechanism
+experiment
+measurement
+
+============================================================
+17. SIMULATION LAB
+============================================================
+
+PLAN A/B/C/D
+-> simulate
+-> compare evidence
+-> identify risks
+-> recommend experiment
+
+No fake simulation certainty.
+
+============================================================
+18. EXPERIMENT ENGINE
+============================================================
+
+HYPOTHESIS
+-> EXPERIMENT
+-> MEASURE
+-> RESULT
+-> LEARN
+-> NEXT EXPERIMENT
+
+Supports:
+- hooks
+- thumbnails
+- topics
+- posting times
+- formats
+- titles
+
+Only real observed evidence becomes a learning signal.
+
+============================================================
+19. SOURCE FUSION
+============================================================
+
+Multiple sources
+-> cross-check
+-> conflict detection
+-> evidence score
+-> provenance
+-> final result
+
+Output status:
+VERIFIED
+SOURCE-BASED
+INFERRED
+UNCERTAIN
+UNAVAILABLE
+
+Never fabricate sources.
+
+============================================================
+20. CAPABILITY FACTORY
+============================================================
+
+User goal
+-> identify missing capability
+-> design skill
+-> isolated build
+-> tests
+-> security scan
+-> proposal
+-> approval if required
+-> skill registry
+-> deploy
+-> verify
+-> rollback
+
+No arbitrary self-RCE.
+
+============================================================
+21. UNIVERSAL BUILDER + PROFESSIONAL REVIEWER
+============================================================
+
+Can inspect/build where tooling permits:
+- website
+- PWA
+- Android project
+- local app
+- Python system
+- API
+- automation
+- mini app
+
+Pipeline:
+IDEA
+-> UNDERSTAND
+-> REVIEW
+-> FIND WRONG/MISSING/RISKY PARTS
+-> IMPROVE IDEA
+-> PLAN
+-> BUILD
+-> TEST
+-> SECURITY
+-> QUALITY
+-> PRESENT
+-> APPROVAL
+-> DEPLOY
+
+"Perfect" means validated against supported requirements/evidence, not literal perfection.
+
+============================================================
+22. MEDIA CREATOR STUDIO
+============================================================
+
+Supports:
+- video
+- photo
+- image
+- wallpaper
+- audio
+- sound
+- story
+- reel
+- short
+- thumbnail
+- caption
+- subtitle
+
+Pipeline:
+IDEA
+-> SCRIPT
+-> ASSETS
+-> GENERATE/EDIT
+-> QUALITY CHECK
+-> EXPORT
+-> PREVIEW
+
+Quality:
+LOW
+STANDARD
+HIGH
+4K TARGET
+8K TARGET
+
+Never claim unsupported resolution/detail.
+
+============================================================
+23. MULTIMODAL + VOICE
+============================================================
+
+Inputs:
+- text
+- voice
+- image
+- document/PDF
+- video
+- audio
+- URL
+
+Pipeline:
+INPUT -> CLASSIFY -> UNDERSTAND -> PLAN -> TOOL -> EXECUTE -> VERIFY -> RESPONSE
+
+Voice states:
+LISTENING
+THINKING
+WORKING
+SPEAKING
+ERROR
+OFFLINE
+
+Never fake transcription.
+
+============================================================
+24. WEB SUPER AGENT
+============================================================
+
+Functions:
+- search
+- page extraction
+- PDF/document extraction
+- structured extraction
+- comparison
+- summary
+- fact checking
+- citations
+- source tracking
+- current-info verification
+
+No fake web results.
+
+============================================================
+25. DOWNLOAD MANAGER
+============================================================
+
+- authorized/public URLs only
+- resumable
+- checksum
+- type verification
+- duplicate detection
+- queue
+- pause/resume/cancel
+- size/storage limits
+
+Never bypass:
+- DRM
+- paywall
+- authentication
+- access controls
+
+============================================================
+26. APP LIBRARY / MINI APP FACTORY
+============================================================
+
+Internal library categories:
+- wallpaper
+- photo
+- video
+- audio
+- voice
+- documents
+- utilities
+- user-built apps
+
+Each app:
+- manifest
+- version
+- permissions
+- dependencies
+- integrity hash
+- tests
+- sandbox
+- source/build info
+- rollback
+- uninstall
+
+External Play Store/deployment:
+separate approved operation
+real credentials/access required
+never fake publication.
+
+============================================================
+27. AGENT ORCHESTRATOR
+============================================================
+
+KILCRITIC
+-> CEO
+-> PLANNER
+-> DIRECTOR
+-> SPECIALIST AGENTS
+-> SKILL REGISTRY
+-> DURABLE QUEUE
+-> WORKERS
+-> VERIFICATION
+-> RESULT
+-> MEMORY/LEARNING
+
+Specialists:
+Research
+Web
+Code
+Repair
+Media
+Voice
+App Builder
+Security
+Analytics
+Publishing
+Testing
+
+Least privilege.
+
+============================================================
+28. PERMISSION ENGINE
+============================================================
+
+Permissions:
+READ_LOCAL_FILE
+WRITE_LOCAL_FILE
+MODIFY_CODE
+INSTALL_PACKAGE
+RUN_PROCESS
+NETWORK_ACCESS
+WEB_SEARCH
+WEB_DOWNLOAD
+UPLOAD_EXTERNAL
+PUBLISH_SOCIAL
+SEND_MESSAGE
+ACCESS_MICROPHONE
+ACCESS_CAMERA
+ACCESS_LOCATION
+CREATE_APP
+DEPLOY_APP
+DELETE_DATA
+CHANGE_SECURITY
+CHANGE_CREDENTIALS
+
+Risk:
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+High/Critical:
+explicit approval.
+
+Never bypass OS/browser/platform permissions.
+
+============================================================
+29. EVOLUTION LEDGER
+============================================================
+
+Every evolution stores:
+proposal_id
+current_version
+target_version
+capability
+reason
+files_changed
+dependencies
+permissions_requested
+risk_level
+test_plan
+security_results
+rollback_point
+approval_status
+verification_status
+
+Evolution:
+DISCOVER GAP
+-> PROPOSAL
+-> DESIGN
+-> DIFF
+-> DEPENDENCIES
+-> RISK
+-> ISOLATED BUILD
+-> TEST
+-> SECURITY
+-> APPROVAL
+-> DEPLOY
+-> VERIFY
+-> SEAL VERSION
+-> ROLLBACK POINT
+
+============================================================
+30. PROVIDER FABRIC
+============================================================
+
+Possible providers:
+Groq
+OpenAI
+Gemini
+OpenRouter
+Cerebras
+local
+future providers
+
+State:
+configured
+available
+healthy
+rate-limited
+failed
+unavailable
+
+Routing factors:
+capability
+quality
+cost
+privacy
+latency
+availability
+
+No fake failover.
+
+============================================================
+31. IMMUNE SYSTEM
+============================================================
+
+Detect:
+- prompt injection
+- tool abuse
+- memory poisoning
+- malicious files
+- bad skill
+- risky patch
+- abnormal agent behavior
+- suspicious network behavior
+
+Response:
+QUARANTINE
+BLOCK
+ALERT
+AUDIT
+RECOVER
+
+Untrusted external content is data, not authority.
+
+============================================================
+32. RESOURCE GOVERNOR
+============================================================
+
+Limits:
+- RAM
+- CPU
+- disk
+- runtime
+- retries
+- recursion
+- tool calls
+- download bytes
+- output size
+- queue size
+- worker count
+- process count
+
+Prevent:
+- infinite loops
+- retry storms
+- queue explosion
+- process explosion
+- denial-of-wallet
+- runaway jobs
+
+============================================================
+33. CHECKPOINT ENGINE
+============================================================
+
+Long jobs:
+START
+-> CHECKPOINT
+-> SAVE STATE
+-> INTERRUPT
+-> RESUME
+
+Works across:
+- crash
+- restart
+- temporary offline
+- device switching
+
+No duplicate execution for idempotent tasks.
+
+============================================================
+34. OFFLINE ENGINE
+============================================================
+
+Detect offline.
+Use local capabilities.
+Queue network tasks.
+Never fake online results.
+Resume on reconnect.
+
+============================================================
+35. MEMORY
+============================================================
+
+Store:
+- preferences
+- projects
+- decisions
+- successful/failed workflows
+- tool reliability
+- approved capabilities
+- security rules
+
+Protect sensitive information.
+Operator-controlled deletion/export.
+No secret exposure.
+
+============================================================
+36. SIMPLICITY / UX GOVERNOR
+============================================================
+
+Core rules:
+- Simple by default
+- Automatic by default
+- Safe by default
+- Human-friendly by default
+
+Detect:
+- unnecessary steps
+- duplicate settings
+- repeated confirmations
+- confusing terminology
+- excessive alerts
+- redundant modules
+- avoidable manual work
+
+Then:
+REMOVE
+MERGE
+AUTOMATE
+HIDE
+or PROPOSE
+
+Main UI stays minimal.
+Advanced controls stay in drawer/progressive disclosure.
+
+============================================================
+37. HUMAN CONTEXT ENGINE
+============================================================
+
+Understand:
+- intent
+- context
+- tone
+- wording
+- visual meaning
+- user preferences
+- current mission
+- task history
+
+Do not claim consciousness or human feelings.
+Use communication cues responsibly.
+
+============================================================
+38. TRUST ENGINE
+============================================================
+
+Trust states:
+TRUSTED
+VERIFIED
+UNKNOWN
+SUSPICIOUS
+BLOCKED
+
+Applies to:
+- agents
+- skills
+- files
+- downloads
+- providers
+- updates
+- plugins
+- artifacts
+
+Unknown is never silently treated as trusted.
+
+============================================================
+39. PROVENANCE ENGINE
+============================================================
+
+For important outputs:
+- source
+- tool
+- timestamp
+- version
+- license/rights status
+- transformations
+- verification
+- evidence
+
+Connect to:
+Truth Engine
+Legal Guard
+Evolution Ledger
+DNA
+Audit
+
+============================================================
+40. DATA LIFECYCLE
+============================================================
+
+CREATE
+-> USE
+-> BACKUP
+-> VERSION
+-> ARCHIVE
+-> EXPIRE/DELETE according to policy
+
+Avoid storage bloat.
+
+============================================================
+41. HEALTH + SELF CLEAN
+============================================================
+
+Health:
+SYSTEM
+SECURITY
+STORAGE
+AGENTS
+PROVIDERS
+BACKUP
+DNA
+MISSIONS
+QUEUES
+
+Self-clean:
+- duplicate files
+- unused skills
+- dead tasks
+- stale cache
+- obsolete dependencies
+- old artifacts according to retention policy
+
+Never delete protected data blindly.
+
+============================================================
+42. SOCIAL PUBLISHING
+============================================================
+
+Supported targets may include:
+YouTube
+Facebook
+Instagram
+TikTok
+X
+future platforms
+
+Before external side effect:
+- legal/platform preflight
+- originality check
+- age/content check
+- spam check
+- disclosure
+- account/rate limits
+- user permission if required
+
+Drafting can be automatic.
+Publishing remains governed.
+
+============================================================
+43. RUNTIME QUALITY RULE
+============================================================
+
+For every generated artifact:
+CREATE
+-> VALIDATE
+-> TEST
+-> SECURITY
+-> QUALITY
+-> PROVENANCE
+-> LEGAL/PLATFORM
+-> RESULT
+
+Never call something "perfect" without evidence.
+
+============================================================
+44. KIDS / GENERAL / 18+ MODES
+============================================================
+
+KIDS:
+- child-appropriate generation
+- block adult/sexual content
+- stronger safety filters
+
+GENERAL/MIXED:
+- broader lawful content
+- platform/safety controls
+
+18+:
+- lawful and platform-permitted adult content only
+- never bypass platform rules
+- age/content safeguards
+
+Mode cannot override hard safety/legal/platform constraints.
+
+============================================================
+45. USER-FACING COMMANDS
+============================================================
+
+Examples:
+
+"Sena Mode ON"
+"Attack [topic]"
+"Clone Team"
+"Mission Lock: [goal]"
+"Phoenix ON"
+"Sync All"
+"Tere Wangu Bna"
+"Dushman Scan"
+"Paise Da Hisab"
+"Raat Da Kaam"
+"Rashtrapati Mode ON"
+"Ajj da Dhanda Scan"
+"System Doctor"
+"Safe Mode"
+"Emergency Recovery"
+"Build an app that..."
+"Fix this project"
+"Make this legally safe"
+"Create this in my style"
+
+Commands are goals, not unrestricted authority.
+
+============================================================
+46. EMERGENCY RECOVERY COMMAND
+============================================================
+
+"Emergency Recovery"
+
+System automatically:
+- isolate suspicious activity
+- freeze external side effects
+- revoke risky permissions
+- preserve logs
+- diagnose
+- repair safe issues
+- test
+- verify
+- rollback
+- restore trusted state
+- security scan
+- safe mode
+- resume only after verification
+
+No offensive counterattack.
+
+============================================================
+47. SECURITY ARCHITECTURE
+============================================================
+
+Must include:
+- authentication
+- authorization
+- least privilege
+- path traversal protection
+- SSRF protection
+- outbound allowlist
+- secret redaction
+- rate limiting
+- upload limits
+- subprocess safety
+- OAuth safety
+- queue fencing
+- idempotency
+- kill switch
+- approval gates
+- audit logs
+- skill integrity hashes
+- plugin trust
+- sandboxing
+- network policy
+- filesystem policy
+- process policy
+
+============================================================
+48. OBSERVABILITY
+============================================================
+
+Compact trace only:
+REQUEST
+PLAN
+TOOLS
+PROGRESS
+RESULT
+VERIFICATION
+
+Never expose private chain-of-thought.
+
+============================================================
+49. TESTING / FINAL QUALITY GATE
+============================================================
+
+Test:
+- compile
+- unit
+- integration
+- security
+- permissions
+- queue
+- race conditions
+- media
+- voice
+- web
+- download
+- repair
+- memory
+- UI
+- mobile
+- desktop
+- offline
+- regression
+- resource limits
+- backup/restore
+- Phoenix
+- cross-device sync
+- legal preflight
+- publishing gates
+- DNA rollback
+- evolution rollback
+
+Never manipulate tests to create a pass.
+
+Release only after genuine pass.
+
+============================================================
+50. IMPLEMENTATION ORDER
+============================================================
+
+PHASE 0:
+Audit real KORA 8.8.5 ZIP/source.
+Do not edit yet.
+
+PHASE 1:
+Create interfaces/contracts:
+- permissions
+- risk
+- evidence
+- provenance
+- task IDs
+- errors
+- verification
+- rollback
+
+PHASE 2:
+Add:
+- Trust Engine
+- Resource Governor
+- Checkpoint Engine
+- Health/Safe Mode
+- Audit/Observability
+
+PHASE 3:
+Add:
+- User DNA
+- Cost Governor
+- Legal/Platform Guard
+- Dharma
+
+PHASE 4:
+Add:
+- ATMA
+- Phoenix
+- secure device mesh
+- Mission Lock
+
+PHASE 5:
+Add:
+- SENA
+- Clone Team
+- bounded parallel execution
+
+PHASE 6:
+Add:
+- Dhanda
+- Opportunity Radar
+- Simulation
+- Experiment Engine
+- Analytics
+
+PHASE 7:
+Add:
+- Web Agent
+- Source Fusion
+- Creator Intelligence
+- Predictive Trend Engine
+
+PHASE 8:
+Add:
+- Capability Factory
+- Universal Builder
+- App Factory
+- Media/Voice
+
+PHASE 9:
+Add:
+- God Meta-Evolution
+- proposal/diff/test/approval/rollback
+- successor sandbox
+
+PHASE 10:
+UX polish:
+- Human Context
+- Simplicity Governor
+- minimal HUD
+- advanced drawer
+- mobile/desktop adaptation
+
+PHASE 11:
+Full quality gate and release scan.
+
+============================================================
+51. RECOMMENDED FILE CONTRACTS
+============================================================
+
+Every module should expose clean contracts rather than direct cross-module hacks.
+
+Example:
+
+Task:
+{
+  "task_id": "...",
+  "goal": "...",
+  "priority": "...",
+  "risk": "...",
+  "permissions": [],
+  "budget": {},
+  "context": {},
+  "status": "..."
+}
+
+Proposal:
+{
+  "proposal_id": "...",
+  "reason": "...",
+  "changes": [],
+  "risk": "...",
+  "tests": [],
+  "rollback": "...",
+  "approval": "..."
+}
+
+Verification:
+{
+  "status": "PASS|FAIL|UNCERTAIN",
+  "tests": [],
+  "evidence": [],
+  "rollback_required": false
+}
+
+Evidence:
+{
+  "status": "VERIFIED|SOURCE_BASED|INFERRED|UNCERTAIN|UNAVAILABLE",
+  "source": [],
+  "timestamp": "...",
+  "confidence": 0.0
+}
+
+============================================================
+52. ERROR MODEL
+============================================================
+
+Every error should have:
+- error_id
+- task_id
+- module
+- category
+- severity
+- cause
+- safe_action
+- retryable
+- rollback_available
+- user_message
+- technical_log
+
+User message should be simple.
+Technical details stay in diagnostics.
+
+============================================================
+53. NO-GO RULES
+============================================================
+
+Never:
+- bypass authentication
+- bypass DRM/paywalls/access controls
+- steal credentials
+- silently publish
+- silently spend money
+- silently modify production
+- fabricate web results
+- fabricate downloads
+- fabricate API connections
+- fabricate app publication
+- fabricate transcription
+- fabricate repair success
+- claim unsupported quality
+- create offensive cyber/physical attack capability
+- use owner preference to falsify facts
+- expose secrets
+- create unrestricted self-RCE
+
+============================================================
+54. FINAL EXPERIENCE
+============================================================
+
+User says:
+"Eh kam kar."
+
+KILCRITIC internally:
+UNDERSTAND
+-> CONTEXT
+-> DNA
+-> SAFETY
+-> LEGAL
+-> COST
+-> PLAN
+-> SKILLS
+-> PERMISSIONS
+-> EXECUTE
+-> VERIFY
+-> RESULT
+-> LEARN
+
+User sees:
+- what was done
+- important issue(s)
+- result
+- approval request only when necessary
+
+The complexity belongs inside the engine, not on the user.
+
+============================================================
+55. FINAL SYSTEM IDENTITY
+============================================================
+
+KILCRITIC INFINITE is not literal unlimited AGI.
+
+Truthful description:
+"Permission-based self-evolving multimodal AI operating system with extensible tools, controlled upgrades, autonomous diagnostics, safe repair, persistent missions, secure recovery, and human-approved high-risk actions."
+
+CORE MOTTO:
+POWERFUL INSIDE.
+SIMPLE OUTSIDE.
+SAFE BY DEFAULT.
+TRUTHFUL ALWAYS.
+RECOVERABLE ALWAYS.
+
+END OF MASTER BLUEPRINT
+============================================================

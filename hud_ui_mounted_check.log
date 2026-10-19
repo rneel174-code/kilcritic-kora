@@ -1,0 +1,40 @@
+PASS mobile: state badge + command bar + task panel visible 
+PASS mobile: 10 floating tool buttons 
+PASS mobile: no horizontal scroll 
+PASS mobile: command bar inside viewport 
+PASS mobile: unknown command gives examples, not success 
+PASS mobile: Amazon says NOT IMPLEMENTED 
+PASS mobile: 'studio kholo' opens Studio 
+PASS mobile: WebM imported and verified IMPORTED_VERIFIED: f.webm
+PASS mobile: video element loaded real media [4, 3.003]
+PASS mobile: Play moves the real media clock 0.72032
+PASS mobile: Pause pauses 
+PASS mobile: Seek moves to ~50% 
+PASS mobile: Stop resets to 0 
+PASS mobile: Trim creates a verified new file Created f-edit.mp4 (verified by ffprobe: 320×180, 1.5 s).
+PASS mobile: Undo reloads the previous asset f.webm loaded (video/webm). Preview only — nothing is publis
+PASS mobile: draft saved (local, not published) 
+PASS mobile: 'save for approval' creates a pending item and says NOT published Saved as PENDING_APPROVAL (id post-eaffc6b8). NOT published; the owner must approve and platform credentials m
+PASS mobile: Advanced → Audit chain answers 
+PASS mobile: no JS errors []
+PASS desktop: state badge + command bar + task panel visible 
+PASS desktop: 10 floating tool buttons 
+PASS desktop: no horizontal scroll 
+PASS desktop: command bar inside viewport 
+PASS desktop: unknown command gives examples, not success 
+PASS desktop: Amazon says NOT IMPLEMENTED 
+PASS desktop: 'studio kholo' opens Studio 
+PASS desktop: WebM imported and verified IMPORTED_VERIFIED: f-1.webm
+PASS desktop: video element loaded real media [4, 3.003]
+PASS desktop: Play moves the real media clock 0.725947
+PASS desktop: Pause pauses 
+PASS desktop: Seek moves to ~50% 
+PASS desktop: Stop resets to 0 
+PASS desktop: Trim creates a verified new file Created f-1-edit.mp4 (verified by ffprobe: 320×180, 1.5 s).
+PASS desktop: Undo reloads the previous asset f-1.webm loaded (video/webm). Preview only — nothing is publ
+PASS desktop: draft saved (local, not published) 
+PASS desktop: 'save for approval' creates a pending item and says NOT published Saved as PENDING_APPROVAL (id post-4457fc3c). NOT published; the owner must approve and platform credentials m
+PASS desktop: Advanced → Audit chain answers 
+PASS desktop: no JS errors []
+PASS H.264 handling is honest (this Chromium cannot decode H.264) This file cannot be decoded by the browser (unsupported or corrupt codec).
+RESULT: PASS

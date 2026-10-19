@@ -1,0 +1,85 @@
+KILCRITIC/KORA — A-Z MASTER ADD-ON PATCH
+ADD THESE FEATURES TO THE EXISTING A-Z MASTER. DO NOT REBUILD OR DUPLICATE.
+
+1. SMART TASK SCHEDULER
+Automatically choose task order/time/resources using urgency, deadline, RAM, CPU, network, battery and current workload.
+
+2. CAPABILITY GRAPH
+Map every goal to available skills/tools/providers and automatically select the smallest reliable combination needed.
+
+3. IDEMPOTENT TASK GUARD
+Retries/crashes must NOT create duplicate uploads, posts, jobs or other external actions. Use unique task/action IDs and completion checks.
+
+4. CIRCUIT BREAKER
+If a provider/tool repeatedly fails, stop repeated retries, temporarily isolate it, use an authorized fallback, then test recovery later.
+
+5. CANARY UPGRADE
+New code/config first runs in isolated test/canary mode. Promote only after tests + health verification. Roll back automatically on failure.
+
+6. DETERMINISTIC REPLAY
+Keep a safe replay/debug record of important task inputs, versions, decisions and results so failures can be reproduced without exposing secrets.
+
+7. PROVENANCE / EVIDENCE CHAIN
+Track source, tool/provider, timestamp, version, transformation and verification status for important outputs. Distinguish verified, source-based, inferred and unavailable information.
+
+8. CONFIGURATION VALIDATOR
+Detect conflicting settings before execution. Safety/legal/platform rules override user preferences; explicit current user instructions override learned preferences where allowed.
+
+9. ENVIRONMENT-ADAPTIVE PROFILES
+Add lightweight adaptive profiles inspired by different operating environments. These are SOFTWARE BEHAVIOR PROFILES, not physical control systems.
+
+AMERICA/REGION PROFILE:
+When the user selects a US/Canada/UK/India/etc. region, automatically adapt timezone, language, currency, platform defaults, formatting, content localization and available authorized services. Never assume nationality or identity from the profile.
+
+OCEAN PROFILE:
+“Ocean mode” = resilient, distributed, flowing workload behavior:
+- smooth queue flow
+- adaptive load balancing
+- burst absorption
+- graceful degradation
+- checkpoint/resume
+- network fluctuation tolerance
+- resource pooling where safe
+
+SKY PROFILE:
+“Sky mode” = lightweight, fast, wide-coverage behavior:
+- parallel independent research/tasks within limits
+- fast routing
+- low-resource background work
+- dynamic priority
+- broad monitoring/analysis
+- automatic consolidation of results
+
+EARTH/GROUND PROFILE:
+Stable foundation mode:
+- conservative resource use
+- reliability first
+- local/offline preference
+- strong checkpointing
+- predictable execution
+
+SPACE PROFILE:
+High-level exploration/simulation mode:
+- scenario simulation
+- forecasting
+- experimentation
+- isolated sandbox work
+- no real-world side effects without approval
+
+AI ENVIRONMENT ORCHESTRATOR:
+Automatically choose or combine profiles according to the current goal and system state.
+Do not run every profile simultaneously.
+Use only the minimum required resources.
+User can override profile when safe.
+
+IMPORTANT:
+These profiles must NOT create fake CPU/RAM/internet power.
+Do not claim physical energy generation.
+Do not implement real nuclear, reactor, weapon, radioactive-material or physical infrastructure control.
+Use the existing Resource Governor, Scheduler, Permission/Trust/Safety systems and Orchestrator rather than creating duplicates.
+
+FINAL FLOW:
+GOAL → CONTEXT → CAPABILITY GRAPH → ENVIRONMENT PROFILE → SMART SCHEDULER → RESOURCE GOVERNOR → EXECUTION → CIRCUIT BREAKER IF NEEDED → VERIFY → PROVENANCE → LEARN → CHECKPOINT.
+
+QUALITY GATE:
+Check duplicate capability, RAM/CPU cost, mobile impact, race conditions, retry duplication, offline behavior, rollback and security regression. Add only features with real measurable benefit.

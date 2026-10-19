@@ -1,0 +1,1 @@
+python tools/build_release_zip.py
